@@ -1,4 +1,4 @@
-# Movie Review Sentiment Classification & Rating Prediction (DELE CA1 Part B)
+# Movie Review Sentiment Classification & Rating Prediction
 
 ## Overview
 This project focuses on building deep learning models to:
