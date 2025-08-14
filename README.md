@@ -1,2 +1,34 @@
-# movie-review-and-sentiment-prediction
-Movie review sentiment classification and rating prediction using RNN architectures (SimpleRNN, LSTM, GRU). Includes preprocessing (tokenisation, stopword removal, lemmatisation), hyperparameter tuning, and evaluation with Accuracy, MAE, RMSE, and R².
+# Movie Review Sentiment Classification & Rating Prediction (DELE CA1 Part B)
+
+## Overview
+This project focuses on building deep learning models to:
+1. **Classify** movie reviews into positive or negative sentiment (binary classification).
+2. **Predict** numerical ratings of movie reviews (regression).
+
+It uses multiple RNN architectures — **SimpleRNN**, **LSTM**, and **GRU** — trained on preprocessed movie review data. The models are evaluated using accuracy for classification and MAE, RMSE, and R² for regression.
+
+---
+
+## Features
+- **Data Preprocessing**: Tokenisation, stopword removal, and lemmatisation applied to text data.
+- **Classification Models**:  
+  - SimpleRNN  
+  - LSTM  
+  - GRU  
+- **Regression Models**:  
+  - LSTM  
+  - GRU  
+- **Hyperparameter Tuning** for optimising learning rate, batch size, and hidden units.
+- **Evaluation Metrics**:
+  - Classification: Accuracy
+  - Regression: MAE, RMSE, R²
+
+---
+
+##  Technologies Used
+- Python 3
+- TensorFlow / Keras
+- NLTK
+- scikit-learn
+- NumPy, Pandas
+- Matplotlib, Seaborn
