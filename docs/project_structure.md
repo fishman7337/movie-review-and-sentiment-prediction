@@ -2,8 +2,8 @@
 
 ```text
 .
-├── DELE_CA1_B.ipynb
 ├── notebooks/
+│   ├── DELE_CA1_B.ipynb
 │   └── chapters/
 ├── src/
 │   └── movie_sentiment_rnn/
@@ -23,7 +23,7 @@
 
 ## Key Areas
 
-`DELE_CA1_B.ipynb` is the preserved original notebook.
+`notebooks/DELE_CA1_B.ipynb` is the preserved original notebook.
 
 `notebooks/chapters/` contains generated notebooks split by original chapter headings. These should be regenerated using `scripts/split_notebook.py`.
 

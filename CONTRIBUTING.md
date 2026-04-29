@@ -18,7 +18,7 @@ python -m pip install -r requirements-notebook.txt
 
 ## Workflow
 
-1. Keep `DELE_CA1_B.ipynb` as the preserved original unless an explicit academic correction is required.
+1. Keep `notebooks/DELE_CA1_B.ipynb` as the preserved original unless an explicit academic correction is required.
 2. Put reusable logic in `src/movie_sentiment_rnn/`.
 3. Add or update tests in `tests/` for code changes.
 4. Run `pytest`, `ruff check .`, and `bandit -r src scripts -ll`.

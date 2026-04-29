@@ -59,7 +59,6 @@ exclude = [
   ".git",
   ".venv",
   "*.ipynb",
-  "DELE_CA1_B.ipynb",
   "notebooks"
 ]
 

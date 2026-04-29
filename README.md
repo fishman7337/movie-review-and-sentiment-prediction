@@ -24,8 +24,9 @@ The final notebook analysis favours classification for the main use case because
 
 ```text
 .
-├── DELE_CA1_B.ipynb              # Original notebook submission, preserved
-├── notebooks/chapters/           # Generated chapter notebooks split from the original
+├── notebooks/
+│   ├── DELE_CA1_B.ipynb          # Original notebook submission, preserved
+│   └── chapters/                 # Generated chapter notebooks split from the original
 ├── src/movie_sentiment_rnn/      # Reusable project package
 ├── tests/                        # Pytest coverage for reusable logic
 ├── scripts/                      # Utility scripts for notebook and repo maintenance
@@ -110,7 +111,7 @@ python -m movie_sentiment_rnn quality-report data/raw/"Movie reviews.csv"
 
 ## Notebook Split
 
-The original notebook remains at `DELE_CA1_B.ipynb`. Split notebooks are generated into `notebooks/chapters/` by chapter:
+The original notebook remains at `notebooks/DELE_CA1_B.ipynb`. Split notebooks are generated into `notebooks/chapters/` by chapter:
 
 1. Imports and setup
 2. Data cleaning

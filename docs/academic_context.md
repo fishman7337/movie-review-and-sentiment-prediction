@@ -12,7 +12,7 @@ Movie Sentiment RNN originated as a Singapore Polytechnic coursework project.
 
 ## Preservation Policy
 
-`DELE_CA1_B.ipynb` is kept as the original submission artifact. Engineering improvements are added around it through:
+`notebooks/DELE_CA1_B.ipynb` is kept as the original submission artifact. Engineering improvements are added around it through:
 
 - Split chapter notebooks in `notebooks/chapters/`.
 - Reusable package code in `src/movie_sentiment_rnn/`.

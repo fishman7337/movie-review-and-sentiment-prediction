@@ -1,6 +1,6 @@
 # Notebook Split
 
-`DELE_CA1_B.ipynb` remains the original notebook submission. Chapter notebooks are generated for easier review and maintenance.
+`notebooks/DELE_CA1_B.ipynb` remains the original notebook submission. Chapter notebooks are generated for easier review and maintenance.
 
 Generate them with:
 
@@ -25,4 +25,4 @@ python scripts/split_notebook.py
 
 ## Regeneration Policy
 
-The split notebooks are derived artifacts. If `DELE_CA1_B.ipynb` changes, regenerate the chapter notebooks and review the diff.
+The split notebooks are derived artifacts. If `notebooks/DELE_CA1_B.ipynb` changes, regenerate the chapter notebooks and review the diff.

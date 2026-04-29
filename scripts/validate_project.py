@@ -3,7 +3,7 @@ from __future__ import annotations
 from pathlib import Path
 
 REQUIRED_PATHS = [
-    "DELE_CA1_B.ipynb",
+    "notebooks/DELE_CA1_B.ipynb",
     "README.md",
     ".env.example",
     "pyproject.toml",

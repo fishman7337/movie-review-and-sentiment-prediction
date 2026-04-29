@@ -5,7 +5,7 @@ import json
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-SOURCE_NOTEBOOK = ROOT / "DELE_CA1_B.ipynb"
+SOURCE_NOTEBOOK = ROOT / "notebooks" / "DELE_CA1_B.ipynb"
 OUTPUT_DIR = ROOT / "notebooks" / "chapters"
 
 CHAPTERS = [
@@ -47,7 +47,8 @@ def main() -> int:
                 "source": [
                     f"# {title}\n",
                     "\n",
-                    "Generated from `DELE_CA1_B.ipynb` by `scripts/split_notebook.py`.\n",
+                    "Generated from `notebooks/DELE_CA1_B.ipynb` "
+                    "by `scripts/split_notebook.py`.\n",
                 ],
             },
             *copy.deepcopy(selected),
