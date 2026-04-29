@@ -8,8 +8,16 @@ version = "0.1.0"
 description = "Reusable utilities and MLOps scaffolding for movie review sentiment RNN experiments."
 readme = "README.md"
 requires-python = ">=3.10"
+license = { text = "MIT" }
 authors = [
   { name = "Goh Kun Ming" }
+]
+classifiers = [
+  "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12"
 ]
 dependencies = [
   "numpy>=1.26",

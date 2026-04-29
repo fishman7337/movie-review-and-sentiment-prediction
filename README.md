@@ -131,3 +131,7 @@ See [docs/notebook_split.md](docs/notebook_split.md) for details.
 - [CONTRIBUTING.md](CONTRIBUTING.md) explains the development workflow.
 - [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md) sets collaboration expectations.
 - [SECURITY.md](SECURITY.md) explains vulnerability reporting and security checks.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).

@@ -29,9 +29,15 @@ mlruns/
 !data/raw/.gitkeep
 !data/interim/.gitkeep
 !data/processed/.gitkeep
+!data/raw/README.md
+!data/interim/README.md
+!data/processed/README.md
 !models/.gitkeep
+!models/README.md
 !reports/figures/.gitkeep
 !reports/metrics/.gitkeep
+!reports/figures/README.md
+!reports/metrics/README.md
 
 # OS and editor files
 .DS_Store
